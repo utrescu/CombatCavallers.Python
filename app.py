@@ -1,4 +1,5 @@
 from LluitadorRandom import LluitadorRandom
+from IRing import IRing
 from Ring import Ring
 
 lluitador1 = LluitadorRandom("DestrossaCervells")

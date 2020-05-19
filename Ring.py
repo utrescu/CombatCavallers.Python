@@ -1,12 +1,11 @@
 from random import randint
+from IRing import *
 from ILluitador import ILluitador
 from Resultat import *
 from typing import List
 
-IResultList = List[float]
+class Ring(IRing):
 
-
-class Ring:
     VIDAINICIAL = 20
 
     def EntradaLluitadors(self, lluitador1, lluitador2):
